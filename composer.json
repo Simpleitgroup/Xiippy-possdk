@@ -1,20 +1,21 @@
 {
+  "name": "xiippy/possdk",
+  "description": "Xiippy payment gateway PHP SDK",
+  "type": "library",
+  "require": {
+    "php": ">=5.3.0"
+  },
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "SimpleIT",
+      "email": "info@SimpleIT.Group"
+    }
+  ],
+  "minimum-stability": "beta",
   "autoload": {
     "psr-4": {
       "Xiippy\\": "src/"
-    },
-    "name": "Xiippy/POSSDK",
-    "description": "Xiippy payment gateway PHP SDK",
-    "type": "library",
-    "require": {
-      "php": ">=5.3.0"
-    },
-    "license": "proprietary",
-    "authors": [
-      {
-        "name": "SimpleIT",
-        "email": "info@SimpleIT.Group"
-      }
-    ]
+    }
   }
-}
+} 
