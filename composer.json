@@ -1,5 +1,9 @@
 {
-    "name": "xiippy/possdk",
+  "autoload": {
+    "psr-4": {
+      "Xiippy\\": "src/"
+    },
+    "name": "Xiippy/POSSDK",
     "description": "Xiippy payment gateway PHP SDK",
     "type": "library",
     "require": {
@@ -12,10 +16,5 @@
         "email": "info@SimpleIT.Group"
       }
     ],
-    "minimum-stability": "dev",
-    "autoload": {
-      "psr-4": {
-        "Xiippy\\": "src/"
-      }
-    }
-}
+    "minimum-stability": "stable"
+  }
