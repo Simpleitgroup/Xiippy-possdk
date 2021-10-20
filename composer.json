@@ -15,6 +15,6 @@
         "name": "SimpleIT",
         "email": "info@SimpleIT.Group"
       }
-    ],
-    "minimum-stability": "stable"
+    ]
   }
+}
