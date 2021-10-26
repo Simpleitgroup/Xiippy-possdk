@@ -1,5 +1,5 @@
 {
-  "name": "xiippy/possdk",
+  "name": "xiippy/posecomsdk",
   "description": "Xiippy payment gateway PHP SDK",
   "type": "library",
   "require": {
